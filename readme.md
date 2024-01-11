@@ -1,3 +1,3 @@
-#Project "slozhno-sosredotochitsya"
+<h1 align="center"> Project "slozhno-sosredotochitsya" </h1>
 
-##link https://github.com/gregory1175/slozhno-sosredotochitsya.git
+<h2> link https://github.com/gregory1175/slozhno-sosredotochitsya.git </h2>
