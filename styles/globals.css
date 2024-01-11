@@ -52,15 +52,15 @@ a {
 
 @media (768px <= width < 1024px) {   
   .decorated-zone::before {
-  left: 20px;
-  bottom: 20px; 
+    left: 20px;
+    bottom: 20px; 
   }
 }
 
 @media (1024px <= width <= 2550px) {   
   .decorated-zone::before {
-  left: 20px;
-  top: 723px; 
+    left: 20px;
+    top: 723px; 
   }
 }
 
@@ -77,8 +77,8 @@ a {
 
 @media (768px <= width < 2550px) {   
   .decorated-zone::after {
-  right: 20px;
-  top: 20px; 
+    right: 20px;
+    top: 20px; 
   }
 }
 
@@ -95,15 +95,15 @@ a {
 
 @media (768px <= width < 1024px) {
   .footer__decorated-zone::before { 
-  left: 20px;
-  top: 5804px;
+    left: 20px;
+    top: 5804px;
   }
 }
 
 @media (1024px <= width <= 2550px) {
   .footer__decorated-zone::before { 
-  left: 20px;
-  top: 4962px;
+    left: 20px;
+    top: 4962px;
   }
 }
 
@@ -120,14 +120,14 @@ a {
 
 @media (768px <= width < 1024px) {
 .footer__decorated-zone::after { 
-  right: 20px;
-  top: 4846px;
+    right: 20px;
+    top: 4846px;
   }
 }
 
 @media (1024px <= width <= 2550px) {
   .footer__decorated-zone::after { 
-  right: 20px;
-  top: 4260px;
+    right: 20px;
+    top: 4260px;
   }
 }
