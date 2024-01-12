@@ -1,16 +1,20 @@
 .page.theme_dark {
   --background-color: rgba(0, 0, 40, 1);
   --main-text-color: rgba(241, 178, 206, 1);
-  --title-shadow: rgba(219, 0, 255, 1);
+  --title-shadow-main: rgba(219, 0, 255, 1);
+  --title-main-color: rgba(219, 0, 255, 1);
   --text-shadow: rgba(255, 0, 112, 1);
-  --backgrounde-image: url(../images/cover-image-dark.png);
+  --hover-color-main: rgba(50 49 45 / 0.4);
+  --background-image-main: url(../images/cover-image-dark.png);
   --main-section-color: var(--background-color);
-  --main-text-shadow: var(--title-shadow);
+  --main-text-shadow: var(--text-shadow);
   --more-text-color: var(--background-color);
   --text-color: var(--main-text-color);
   --title-color: var(--title-main-color);
   --title-shadow: var(--text-shadow);
   --rec-color: var(--text-shadow);
   --border-color: var(--text-shadow);
+  --hover-color: var(--hover-color-main);
+  --background-image: var(--background-image-main);
+  --link-shadow: var(--text-shadow)
 }
-

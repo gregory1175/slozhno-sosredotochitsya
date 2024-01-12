@@ -1,42 +1,20 @@
 :root {
-  --font-family: "IBM Plex mono";
-}
-
-@media (prefers-color-scheme: dark) {
-  :root  {
-    --background-color: rgba(0, 0, 40, 1);
-    --main-text-color: rgba(241, 178, 206, 1);
-    --title-main-color: rgba(219, 0, 255, 1);
-    --text-shadow: rgba(255, 0, 112, 1);
-    --background-image: url(../images/cover-image-dark.png);
-    --main-section-color: var(--background-color);
-    --main-text-shadow: var(--title-shadow);
-    --more-text-color: var(--background-color);
-    --text-color: var(--main-text-color);
-    --title-color: var(--title-main-color);
-    --title-shadow: var(--text-shadow);
-    --rec-color: var(--text-shadow);
-    --border-color: var(--text-shadow);
-
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background-color: rgba(255, 241, 247, 1) ;
-    --main-text-color: rgba(53, 52, 48, 1);
-    --title-main-color:rgba(255, 194, 230, 1);
-    --text-shadow: rgba(255, 141, 203, 1);
-    --title-text-shadow: rgba(255, 0, 112, 1);
-    --background-image: url(../images/cover-image-light.png);
-    --main-section-color: var(--background-color);
-    --main-text-shadow: var(--text-shadow);
-    --more-text-color: var(--main-text-color);
-    --title-color: var(--text-shadow);
-    --text-color: var(--main-text-color);
-    --title-shadow: var(--title-text-shadow);
-    --rec-color: var(--background-color);
-    --border-color: var(--main-text-color);
-
-  }
+  --font-family: "IBM Plex mono" ;
+  --background-color: rgba(0, 0, 40, 1);
+  --main-text-color: rgba(241, 178, 206, 1);
+  --title-main-color: rgba(219, 0, 255, 1);
+  --text-shadow: rgba(255, 0, 112, 1);
+  --hover-color-main: rgba(50 49 45 / 0.4);
+  --background-image-main: url(../images/cover-image-dark.png);
+  --main-section-color: var(--background-color);
+  --main-text-shadow: var(--title-shadow);
+  --more-text-color: var(--background-color);
+  --text-color: var(--main-text-color);
+  --title-color: var(--title-main-color);
+  --title-shadow: var(--text-shadow);
+  --rec-color: var(--text-shadow);
+  --border-color: var(--text-shadow);
+  --hover-color: var(--hover-color-main);
+  --background-image: var(--background-image-main);
+  --link-shadow: var(--text-shadow)
 }

@@ -1,17 +1,43 @@
 .page.theme_light {
   --background-color: rgba(255, 241, 247, 1) ;
   --main-text-color: rgba(53, 52, 48, 1);
-  --title-shadow:rgba(255, 194, 230, 1);
+  --title-shadow-main:rgba(255, 194, 230, 1);
   --text-shadow: rgba(255, 141, 203, 1);
   --title-text-shadow: rgba(255, 0, 112, 1);
-  --background-image: url(../images/cover-image-light.png);
+  --hover-color-main: rgba(255 0 112 / 0.40);
+  --background-image-main: url(../images/cover-image-light.png);
   --main-section-color: var(--background-color);
   --main-text-shadow: var(--text-shadow);
   --more-text-color: var(--main-text-color);
+  --title-color: var(--title-shadow-main);
   --text-color: var(--main-text-color);
-  --title-color: var(--text-shadow);
   --title-shadow: var(--title-text-shadow);
   --rec-color: var(--background-color);
   --border-color: var(--main-text-color);
+  --hover-color: var(--hover-color-main);
+  --background-image: var(--background-image-main);
+  --link-shadow: var(--text-shadow);
+}
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: rgba(255, 241, 247, 1) ;
+    --main-text-color: rgba(53, 52, 48, 1);
+    --title-shadow-main:rgba(255, 194, 230, 1);
+    --text-shadow: rgba(255, 141, 203, 1);
+    --title-text-shadow: rgba(255, 0, 112, 1);
+    --hover-color-main: rgba(255 0 112 / 0.40);
+    --background-image-main: url(../images/cover-image-light.png);
+    --main-section-color: var(--background-color);
+    --main-text-shadow: var(--text-shadow);
+    --more-text-color: var(--main-text-color);
+    --title-color: var(--title-shadow-main);
+    --text-color: var(--main-text-color);
+    --title-shadow: var(--title-text-shadow);
+    --rec-color: var(--background-color);
+    --border-color: var(--main-text-color);
+    --hover-color: var(--hover-color-main);
+    --background-image: var(--background-image-main);
+    --link-shadow: var(--text-shadow);
+  }
 }
