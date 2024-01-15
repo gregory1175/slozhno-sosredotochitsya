@@ -1,10 +1,10 @@
 :root {
-  --font-family: "IBM Plex mono" ;
+  --font-family: "IBM Plex mono",  monospace;;
   --background-color: rgba(0, 0, 40, 1);
   --main-text-color: rgba(241, 178, 206, 1);
   --title-main-color: rgba(219, 0, 255, 1);
   --text-shadow: rgba(255, 0, 112, 1);
-  --hover-color-main: rgba(50 49 45 / 0.4);
+  --hover-color-main: rgba(255 0 112 / 0.4);
   --background-image-main: url(../images/cover-image-dark.png);
   --main-section-color: var(--background-color);
   --main-text-shadow: var(--title-shadow);
