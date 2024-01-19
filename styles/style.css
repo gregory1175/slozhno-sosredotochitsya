@@ -120,13 +120,13 @@
 }
 
 .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--hover-color);
+  border-bottom: 1px solid var(--border-color);
   outline: none;
   box-shadow:none;  
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--hover-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header__theme-menu-button_active {
