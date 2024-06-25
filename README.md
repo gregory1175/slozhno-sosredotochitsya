@@ -1,12 +1,10 @@
 <h1 align="center"> Проект "slozhno-sosredotochitsya" </h1>
 
-<p> Ссылка на проект: </p>
-<a> https://github.com/gregory1175/slozhno-sosredotochitsya.git </a>
+[Ссылка на проект](https://github.com/gregory1175/slozhno-sosredotochitsya.git)
 
 ---
 
-<p> Ссылка на макет: </p>
-<a> https://www.figma.com/design/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=0-1 </a>
+[Ссылка на макет](https://www.figma.com/design/lCqDbWjgllgJtb2hmCqfyX/%236-Сложно-сосредоточиться?node-id=0-1)
 
 ---
 
