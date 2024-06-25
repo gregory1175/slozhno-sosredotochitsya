@@ -8,7 +8,7 @@
 
 ---
 
-<p> Стек: HTML | CSS </p>
+<p> Стек: HTML | CSS | JS </p>
 
 ---
 
